@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="movie-app.css">
+    <title>Document</title>
+</head>
+<body>
+   <header id="app-title">
+       <h1>Rate Your Favorite Movies</h1>
+   </header>
+   <form id="movie-form">
+       <div class="form-group">
+           <label for="title">Title:</label>
+           <input id="movie-title" name="title" placeholder="Enter Movie Here">
+       </div>
+       <div class="'form-group">
+           <label for="rating">Rating:</label>
+           <input type="number" id="movie-rating" name="rating" min="0"  max="10">     
+        </div>
+        <div>
+            <button id="submit-btn">Submit!</button>
+        </div>
+   </form>
+   <br>
+   <ul id="movie-list">
+
+   </ul>
+   <button id="delete-btn">Delete Titles</button>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="movie-app.js"></script>
+</body>
+</html>

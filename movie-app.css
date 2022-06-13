@@ -1,0 +1,47 @@
+body{
+    background-color:#F3FFC6 ;
+}
+
+#app-title{
+    display:inline-flex;
+    position: relative;
+    left: 15em;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    width: 30em;
+    background-color: #B6174B;
+    box-shadow: 5px 5px 5px black;
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;;
+}
+#movie-rating{
+    left: 10em;
+}
+#movie-form{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    top:5em;
+    right:10em;
+}
+
+#movie-list{
+    position: absolute;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    top: 10em;
+    left: 24em;
+}
+#delete-btn{
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    top:20em;
+    left: 35em;
+}
